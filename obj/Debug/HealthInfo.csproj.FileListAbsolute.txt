@@ -1,0 +1,11 @@
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\bin\Debug\HealthInfo.exe.config
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\bin\Debug\HealthInfo.exe
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\bin\Debug\HealthInfo.pdb
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.csprojAssemblyReference.cache
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.Form1.resources
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.Properties.Resources.resources
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.csproj.GenerateResource.cache
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.csproj.CoreCompileInputs.cache
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.exe
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.pdb
+C:\Users\xiaojuanjuan\source\repos\HealthInfo\obj\Debug\HealthInfo.EditForm.resources

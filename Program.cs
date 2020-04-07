@@ -1,26 +1,22 @@
-using System;
-using System.IO;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace HealthInfo
 {
-    class Program
+    static class Program
     {
-        public void Main()
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            string path = "EmployeeData.csv";
-            if (!File.Exists(path))
-            {
-                File.Create(path).Close();
-            }
-            List<Employee> employeeInfoList = Operations.ReadData();
-
-            Console.WriteLine($"---Current list contains {employeeInfoList.Count} employee(s)---");
-
-            MainMenu.MainControlPanel(employeeInfoList);
-
-            Console.WriteLine("---Saving all current data---");
-            Operations.SaveData(employeeInfoList);
-            Console.WriteLine("---Program terminated---");
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }

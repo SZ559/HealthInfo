@@ -1,6 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace HealthInfo
 {
-    class Employee
+    public class Employee
     {
         public string Gin
         {
@@ -37,7 +43,7 @@ namespace HealthInfo
         }
         public bool Alert()
         {
-            if (BodyTemperature >= 37.3 || HubeiTravelStatus || UnderTheWeather)
+            if ( BodyTemperature >= 37.3 || HubeiTravelStatus || UnderTheWeather )
             {
                 return true;
             }
@@ -45,6 +51,10 @@ namespace HealthInfo
             {
                 return false;
             }
+        }
+        public override string ToString()
+        {
+            return Gin + "," + Name + "," + BodyTemperature.ToString() + "," + HubeiTravelStatus.ToString() + "," + UnderTheWeather.ToString();
         }
     }
 }
